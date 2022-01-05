@@ -1,3 +1,11 @@
+.menu .name {
+  font-size: var(--fontsize-l);
+  display: flex;
+  position: fixed;
+  top: var(--spacing-sm);
+  left: 36px;
+}
+
 .menu-container {
   position: fixed;
   display: flex;

@@ -63,4 +63,12 @@
   .about__skills--container {
     flex-direction: column;
   }
+
+  .info {
+    flex-direction: column;
+  }
+
+  .info li:nth-child(2) {
+    margin-top: var(--spacing-sm);
+  }
 }

@@ -14,13 +14,13 @@
   font-size: var(--fontsize-l);
 }
 
-.menu-container li {
+.menu-container a {
   margin-right: var(--spacing-m);
   display: inline-block;
   position: relative;
 }
 
-.menu-container li:after {
+.menu-container a:after {
   content: '';
   position: absolute;
   width: 100%;
@@ -33,7 +33,7 @@
   transition: transform 0.25s ease-out;
 }
 
-.menu-container li:hover:after {
+.menu-container a:hover:after {
   transform: scaleX(1);
   transform-origin: bottom center;
 }

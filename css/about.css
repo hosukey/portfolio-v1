@@ -6,6 +6,11 @@
 }
 
 /* introduction */
+
+.about__intro {
+  margin-top: var(--spacing-xxl);
+}
+
 .about__intro p {
   font-size: var(--fontsize-xl);
   letter-spacing: -1px;

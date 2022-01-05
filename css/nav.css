@@ -1,0 +1,11 @@
+.menu-container {
+  position: fixed;
+  display: flex;
+  top: var(--spacing-sm);
+  right: 0;
+  font-size: var(--fontsize-l);
+}
+
+.menu-container li {
+  margin-right: var(--spacing-m);
+}

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url(reset.css);
+@import url(nav.css);
+@import url(about.css);
+@import url(works.css);
+@import url(contact.css);
+@import url(menu.css);
+
+* {
+  font-family: 'Cormorant Garamond', serif;
+  color: var(--color-text);
+}
+
+.container {
+  max-width: 900px;
+}
+
+:root {
+  /* colors */
+  --color-background: #ddf3da;
+  --color-text: #240f28;
+  --color-orange: #fe7d17;
+  --color-green: #c8eb77;
+  --color-purple: #9380ff;
+  --color-highlight-dark: #662eff;
+  --color-highlight-light: #beaaff;
+  --color-darkgray: #313131;
+  --color-black: #000000;
+  --color-white: white;
+
+  /* spacing */
+  --spacing-xxs: 4px;
+  --spacing-xs: 8px;
+  --spacing-s: 16px;
+  --spacing-sm: 24px;
+  --spacing-m: 36px;
+  --spacing-l: 56px;
+  --spacing-xl: 72px;
+  --spacing-xxl: 96px;
+
+  /* font size */
+  --fontsize-xxs: 12px;
+  --fontsize-xs: 14px;
+  --fontsize-s: 16px;
+  --fontsize-m: 18px;
+  --fontsize-l: 24px;
+  --fontsize-xl: 30px;
+  --fontsize-xxl: 48px;
+}

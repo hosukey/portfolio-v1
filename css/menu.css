@@ -1,0 +1,107 @@
+.round {
+  width: 294px;
+  height: 304px;
+  background-color: var(--color-highlight-light);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: var(--spacing-m);
+  margin-top: var(--spacing-m);
+  position: absolute;
+  right: 0;
+  top: 0;
+  position: fixed;
+  visibility: hidden;
+}
+
+.round-menu li {
+  font-size: var(--fontsize-l);
+  text-decoration: underline;
+  margin-bottom: var(--spacing-s);
+  letter-spacing: -1px;
+  font-weight: 600;
+}
+
+.round-menu a:hover {
+  color: var(--color-highlight-dark);
+}
+
+.round-menu {
+  margin-right: var(--spacing-xxl);
+  right: 0;
+  top: 0;
+}
+
+/* hamburger button */
+
+.menu-button {
+  background-color: transparent;
+  font-size: var(--fontsize-xl);
+  width: 50px;
+  height: 45px;
+  position: relative;
+  margin: 50px auto;
+}
+
+.menu-button span {
+  display: block;
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  background: var(--color-black);
+  opacity: 1;
+  left: 0;
+  transition: all 0.1s ease;
+}
+
+.menu-button span:first-child {
+  top: 0px;
+}
+
+.menu-button span:nth-child(2),
+.menu-button span:nth-child(3) {
+  top: 18px;
+}
+
+.menu-button span:nth-child(4) {
+  top: 36px;
+}
+.menu-button.open span:nth-child(1) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+
+.menu-button.open span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.menu-button.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.menu-button.open span:nth-child(4) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+
+.menu-button {
+  z-index: 999;
+  position: absolute;
+  right: var(--spacing-m);
+  top: 0;
+  position: fixed;
+}
+
+/* show menu */
+.show-menu {
+  visibility: visible;
+}

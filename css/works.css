@@ -1,0 +1,133 @@
+#myworks {
+  background-color: var(--color-background);
+  padding-top: var(--spacing-l);
+  padding-left: var(--spacing-m);
+  padding-right: var(--spacing-m);
+  padding-bottom: var(--spacing-l);
+  letter-spacing: -1px;
+}
+
+.myworks__container {
+  padding: var(--spacing-l) 0;
+}
+
+#myworks h1 {
+  font-size: var(--fontsize-xxl);
+}
+
+#myworks h1 span {
+  font-size: var(--fontsize-xl);
+  margin-left: var(--spacing-s);
+}
+
+.project-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: var(--spacing-m);
+  transition: all 0.2s ease;
+}
+
+.project-title:hover {
+  cursor: pointer;
+}
+
+.title {
+  font-size: var(--fontsize-l);
+  padding: var(--spacing-xs) 0;
+  font-weight: 500;
+}
+
+.project button {
+  background-color: transparent;
+}
+
+.project button i {
+  font-size: var(--fontsize-xxs);
+}
+
+.line {
+  width: 100%;
+  background-color: var(--color-black);
+  height: 1px;
+}
+
+.description {
+  font-size: var(--fontsize-l);
+  max-width: 600px;
+  line-height: 1.2;
+  font-weight: 300;
+  padding: var(--spacing-sm) 0;
+}
+
+.tech {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tech li {
+  margin-right: var(--spacing-s);
+  font-size: var(--fontsize-m);
+}
+
+.links {
+  padding: var(--spacing-l) 0;
+}
+
+.links a {
+  font-size: var(--fontsize-l);
+  font-weight: 600;
+  text-decoration: underline;
+  margin-right: var(--spacing-l);
+}
+
+/* arrow hover effect */
+.links span {
+  display: inline-block;
+  transition: 0.2s ease-in;
+}
+
+.links a:hover span {
+  transform: translateX(24px);
+}
+
+.links a::before {
+  content: '→';
+  position: absolute;
+  opacity: 0;
+  padding-right: 10px;
+  transition: 0.2s ease-in;
+}
+
+.links a:hover::before {
+  opacity: 1;
+}
+
+.links a:hover {
+  opacity: 70%;
+}
+
+i {
+  color: black;
+}
+
+/* hiding arrow up down */
+.project-description {
+  display: none;
+}
+
+.show-text .project-description {
+  display: block;
+}
+
+.up {
+  display: none;
+}
+
+.show-text .up {
+  display: inline;
+}
+
+.show-text .down {
+  display: none;
+}

@@ -3,7 +3,7 @@
   display: flex;
   position: fixed;
   top: var(--spacing-sm);
-  left: 36px;
+  left: var(--spacing-m);
 }
 
 .menu-container {

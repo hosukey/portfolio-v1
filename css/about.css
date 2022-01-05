@@ -98,16 +98,3 @@
 .course li:nth-child(2) {
   flex: 1;
 }
-
-/* Media Queries */
-@media only screen and (max-width: 768px) {
-  .course li:nth-child(2) {
-    margin-right: 0;
-  }
-}
-
-@media only screen and (max-width: 650px) {
-  .about__skills--container {
-    flex-direction: column;
-  }
-}

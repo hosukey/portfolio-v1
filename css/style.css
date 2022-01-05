@@ -33,7 +33,7 @@
   --spacing-xs: 8px;
   --spacing-s: 16px;
   --spacing-sm: 24px;
-  --spacing-m: 32px;
+  --spacing-m: 28px;
   --spacing-l: 56px;
   --spacing-xl: 72px;
   --spacing-xxl: 96px;
@@ -43,7 +43,7 @@
   --fontsize-xs: 14px;
   --fontsize-s: 16px;
   --fontsize-m: 18px;
-  --fontsize-l: 24px;
+  --fontsize-l: 23px;
   --fontsize-xl: 30px;
   --fontsize-xxl: 48px;
 }
@@ -70,5 +70,17 @@
 
   .info li:nth-child(2) {
     margin-top: var(--spacing-sm);
+  }
+
+  .course {
+    gap: var(--spacing-xs);
+  }
+
+  .course li:first-child {
+    flex: 3;
+  }
+
+  .course li:nth-child(2) {
+    flex: 1;
   }
 }

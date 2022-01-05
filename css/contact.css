@@ -52,11 +52,15 @@
   opacity: 70%;
 }
 
+.sns {
+  display: flex;
+}
 .sns li {
-  font-size: var(--fontsize-l);
+  font-size: var(--fontsize-xl);
   text-decoration: underline;
   margin-bottom: var(--spacing-sm);
   font-weight: 600;
+  margin-right: var(--spacing-m);
 }
 
 .sns a:hover {

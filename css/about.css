@@ -8,7 +8,11 @@
 /* introduction */
 
 .about__intro {
-  margin-top: var(--spacing-xxl);
+  /* margin-top: var(--spacing-xxl); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
 }
 
 .about__intro p {

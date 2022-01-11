@@ -17,7 +17,8 @@
 
 :root {
   /* colors */
-  --color-background: #ddf3da;
+  /* --color-background: #ddf3da; */
+  --color-background: #beaaff;
   --color-text: #240f28;
   --color-orange: #fe7d17;
   --color-green: #c8eb77;
@@ -85,12 +86,13 @@
   }
 }
 
+/* reveal elements */
 .section--hidden {
   opacity: 0;
   transform: translateY(8rems);
 }
 
 .reveal {
-  transition: all 1.2s ease-in-out;
+  transition: all 1s ease-in-out;
   transform: translateY(0rems);
 }
